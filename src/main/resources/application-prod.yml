@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://172.17.0.1:3306/blog_prod
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
